@@ -1,0 +1,526 @@
+
+@media (max-width: 1800px) {
+    .black{
+        background-color: #000000ba;
+    }
+}
+
+@media (max-width: 1200px) {
+    .containerMedia{
+        width: 100%;
+    }
+
+    .textNav{
+        font-size: 18px;
+    }
+
+    .textNav2{
+        margin-left: 56px;
+    }
+
+    .textNav3{
+        margin-left: 80px;
+    }
+
+    .containerM{
+        width: 80%;
+    }
+
+    .dHeader{
+        width: 100%;
+    }
+
+    .dBlock2{
+        display: none;
+    }
+
+    .imgAbout{
+        width: 310px;
+    }
+
+    .textAboutWidth{
+        margin-left: 14px;
+    }
+
+    .textAbout{
+        font-size: 30px;
+    }
+
+    .wAbout{
+        width: 248px;
+    }
+
+    .aboutFlex{
+        justify-content: space-evenly;
+    }
+
+    .width{
+        margin-left: 0px;
+    }
+
+    .containerMediaYellow{
+        width: 94%;
+    }
+
+    .yellowImg > img{
+        height: 280px;
+    }
+
+    .servicesFlex{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .servicesWidth{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .textServices{
+        padding: 5px;
+    }
+
+    .CarFons{
+        height: 440px;
+    }
+
+    .servicesPost{
+        padding-top: 120px;
+    }
+
+    .textContact{
+        width: 540px;
+        padding-left: 20px;
+    }
+
+    .textContact > img{
+
+    }
+}
+@media (max-width: 992px) {
+    .dBlock{
+        display: none;
+    }
+
+    .containerM{
+        width: 60%;
+    }
+
+    .widthHeader{
+        width: 100%;
+    }
+
+    .textHeader{
+        width: 100%;
+        font-size: 46px;
+        padding-top: 78px;
+    }
+
+    .imgScroll2{
+        background-image: url("https://hayat.rest/image/catalog/blog/hinkali.jpg");
+        background-blend-mode: darken;
+        background-repeat: no-repeat;
+        background-color: #00000061;
+        background-size: cover;
+        width: 100%;
+        height: 900px;
+    }
+
+    .imgScroll{
+        background-image: url("https://hayat.rest/image/catalog/blog/shutterstock_644368891(1).jpg");
+        background-blend-mode: darken;
+        background-repeat: no-repeat;
+        background-color: #00000061;
+        background-size: cover;
+        width: 100%;
+        height: 900px;
+    }
+
+    .aboutFlex{
+        justify-content: normal;
+        flex-wrap: wrap;
+    }
+
+    .wAbout{
+        width: 100%;
+    }
+
+    .textAboutWidth{
+        width: 520px;
+    }
+
+    .textAboutWidth{
+        width: 90%;
+        margin-left: 10px;
+        padding-right: 10px;
+    }
+
+    .imgAbout{
+        width: 360px;
+    }
+
+    .textAbout{
+        width: 100%;
+    }
+
+    .width{
+        margin-left: 10px;
+        padding-right: 20px;
+    }
+
+    .ptIn{
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .omgInc > img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .wInsurance{
+        margin-left: -32px;
+        width: 100%;
+    }
+
+    .InsuranceImg{
+        height: 300px;
+    }
+
+    .yellowBlock{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .containerMediaYellow{
+        width: 90%;
+    }
+
+    .yellowImg{
+        width: 50%;
+        height: 600px;
+    }
+
+    .yellowImg > img{
+        height: 370px;
+    }
+
+    .pt{
+        padding: 40px 0px 0px 0px;
+    }
+
+    .servicesFlex{
+        display: block;
+    }
+
+    .servicesWidth{
+        width: 90%;
+    }
+
+    .servicesImg > img{
+        width: 380px;
+    }
+
+    .servicesWidth{
+        padding-top: 20px;
+    }
+
+    .navigation{
+        display: none;
+    }
+
+    .navigationMap{
+        display: block;
+    }
+
+    .imgNavGlav{
+        display: flex;
+        justify-content: center;
+    }
+
+    .imgNav > img{
+        width: 460px;
+    }
+
+    .flexNav{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 40px;
+    }
+}
+@media (max-width: 778px) {
+    .containerM{
+        width: 70%;
+    }
+    .textHeader{
+        width: 100%;
+        font-size: 34px;
+        padding-top: 78px;
+    }
+
+    .widthHeader{
+        font-size: 14px;
+    }
+
+    .textWhite > img{
+        width: 34px;
+        height: 34px;
+    }
+
+    .textWhite > svg{
+        width: 34px;
+        height: 34px;
+    }
+
+    .textH{
+        font-size: 14px;
+    }
+
+    .imgScroll2{
+        height: 700px;
+    }
+
+    .imgScroll{
+        height: 700px;
+    }
+
+    .dflex{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .textAbout{
+        text-align: center;
+    }
+
+    .aboutText2{
+        text-align: center;
+    }
+
+    .textAboutWidth{
+        width: 100%;
+        margin: 0 auto;
+        text-align: left;
+        padding: 6px;
+    }
+
+    .width{
+        padding-top: 20px;
+    }
+
+    .imgAbout{
+        width: 405px;
+        height: 460px;
+        border-radius: 15%;
+    }
+    .wAbout{
+        padding-left: 14px;
+    }
+
+    .Dflex{
+        flex-wrap: wrap;
+    }
+
+    .omgInc{
+        display: flex;
+        justify-content: center;
+        background-color: #fff;
+        width: 86%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-start-end-radius: 30px;
+        border-start-start-radius: 30px;
+    }
+
+    .InsuranceImg{
+        width: 86%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    .wInsurance{
+        margin-left: 0px;
+        padding: 16px;
+    }
+
+    /* .dYellow{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    } */
+
+    /* .dYellow > p{
+        text-align: center;
+    } */
+
+    .textYellow{
+        text-align: center;
+    }
+
+    .containerMediaYellow{
+        width: 100%;
+    }
+    .yellowImg{
+        width: 90%;
+        height: 620px;
+    }
+
+    .CarFons{
+        height: 380px;
+    }
+
+    .servicesPost{
+        padding-top: 40px;
+    }
+
+    .textContact{
+        width: 540px;
+    }
+
+    .txt{
+        font-size: 18px;
+    }
+
+    .zIndex2{
+        margin-left: 30px;
+    }
+
+    .imgScroll2{
+        height: 760px;
+    }
+
+    .imgScroll{
+        height: 760px;
+    }
+}
+
+@media (max-width: 540px) {
+    .omgInc > img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .omgInc{
+        width: 100%;
+    }
+
+    .InsuranceImg{
+        width: 100%;
+        height: 100%;
+    }
+
+    .containerMediaYellow{
+        width: 100%;
+    }
+
+    .yellowImg {
+        height: 500px;
+    }
+
+    .yellowImg > img{
+        height: 320px;
+    }
+
+    .CarFons{
+        background-image: url("https://focus.ua/static/storage/thumbs/920x465/e/d2/ee24729d-30125853274b22b7ccde22c682457d2e.jpg?v=5717_1");
+        height: 400px;
+    }
+
+    .fsg{
+        font-size: 16px;
+    }
+
+    .servicesPost{
+        padding-top: 80px;
+    }
+
+    .textContact{
+        width: 400px;
+        margin: 0;
+    }
+
+    .imgScroll2{
+     height: 760px;
+    }
+
+    .imgScroll{
+        height: 760px;
+    }
+}
+
+@media (max-width: 440px) {
+    .font{
+        display: none;
+    }
+
+    .imgAbout{
+        width: 320px;
+        border-radius: 1%;
+    }
+
+    .textHeader{
+        font-size: 26px;
+    }
+
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+
+    .dflex{
+        justify-content: center;
+    }
+
+    .textAboutWidth{
+        text-align: left;
+    }
+
+    .containerMediaYellow{
+        width: 100%;
+    }
+
+    .yellowImg > img{
+        height: 260px;
+    }
+
+    .servicesImg > img{
+        width: 100%;
+    }
+
+    .CarFons{
+        height: 480px;
+    }
+
+    .servicesPost{
+        padding-top: 40px;
+    }
+
+    .imgNav > img{
+        width: 300px;
+    }
+
+    .textContact{
+        width: 100%;
+        margin: 0;
+        padding-left: 15px;
+    }
+
+    .imgContact > img{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 320px) {
+    .imgAbout{
+        width: 100%;
+        border-radius: 1%;
+    }
+
+    .containerMediaYellow{
+        width: 100%;
+    }
+
+}

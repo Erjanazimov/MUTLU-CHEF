@@ -1,0 +1,417 @@
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+li{
+    list-style: none;
+    line-height: 2  ;
+    color: white;
+    margin-left: -30px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+li > a:hover{
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.imgScroll{
+    background-image: url("https://hayat.rest/image/catalog/blog/shutterstock_644368891(1).jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-color: #00000061;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+
+.Text{
+    align-self: center;
+    font-weight: 600;
+}
+
+.containerMedia{
+    width: 1230px;
+    margin: 0 auto;
+}
+
+.containerMediaYellow{
+    width: 1230px;
+    margin: 0 auto;
+}
+
+.containerM{
+    width: 78%;
+    margin:  0 auto;
+}
+
+.textHeader{
+    width: 70%;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+    padding-top: 140px;
+}
+
+.widthHeader{
+    width: 60%;
+    color: #fff;
+}
+
+.textWhite{
+    color: #fff;
+}
+
+.textH{
+    color: #fff;
+    width: 70%;
+}
+
+.dHeader{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgScroll2{
+    background-image: url("https://hayat.rest/image/catalog/blog/hinkali.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-color: #00000061;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+
+.tex{
+    margin-left: -18px;
+    padding-right: 10px;
+}
+
+.dHeader2{
+    width: 94%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block{
+    width: 380px;
+}
+
+.font{
+    font-size: 12px;
+    border-left: 1px solid black;
+    padding-left: 10px;
+    padding-top: 18px;
+}
+
+.textNav{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.textNav2{
+    font-size: 14px;
+    line-height: 0;
+    margin-top: 3px;
+    margin-left: 80px;
+}
+
+.px{
+    padding-left: 60px;
+}
+
+.textNav3{
+    font-size: 14px;
+    line-height: 0;
+    margin-top: 3px;
+    margin-left: 105px;
+}
+
+.offcanvasend{
+    top: 0;
+    width: 280px;
+    /*border-left: 1px solid rgba(0,0,0,.2);*/
+    transform: translateY(100%);
+    /*right: 0;*/
+    left: 0;
+}
+
+.aboutFlex{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.textAbout{
+    line-height: 1;
+    font-weight: bold;
+    font-size: 36px;
+    width: 40px;
+}
+
+.aboutText2{
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.imgAbout{
+    width: 400px;
+    height: 500px;
+    border-radius: 12px;
+}
+
+.textAboutWidth{
+    font-weight: 300;
+    width: 400px;
+    margin-right: 20px;
+}
+
+.textAboutWidth{
+    width: 400px;
+    margin-left: 20px;
+}
+
+.wAbout{
+    width: 300px;
+}
+
+.dflex{
+    display: flex;
+}
+
+.width{
+    margin-left: 20px;
+}
+
+.fons{
+    background-color: #f2f2f8;
+    width: 100%;
+}
+
+.omgInc{
+    z-index: 2;
+}
+
+
+.Dflex{
+    display: flex;
+    justify-content: center;
+}
+
+.InsuranceImg{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 70px;
+    margin-left: -90px;
+    z-index: 1;
+    height: 345px;
+}
+
+.pt{
+    padding: 40px 0px 0px 0px;
+}
+
+.wInsurance{
+    width: 84%;
+    padding-left: 120px;
+}
+
+.wInsurance > p{
+    font-weight: 300;
+}
+
+.ptIn{
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+.fonsYellow{
+    width: 100%;
+    height: 160px;
+    background-color: #f19a0e;
+    z-index: 1;
+}
+
+.yellowB{
+    margin-top: 120px;
+}
+
+.yellowBlock{
+    display: flex;
+    z-index: 3;
+    margin-top: -260px;
+}
+
+.dYellow{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    overflow-x: scroll;
+}
+
+.dYellow::-webkit-scrollbar {
+    /* background-color: #B2B2B2; */
+    width: 12px;
+    background-position: center;
+    background-size: 2px 1px;
+    background-repeat: repeat-y;
+    background-image: url('https://i2.wp.com/assets.codepen.io/internal/avatars/users/default.png?ssl=1');
+  }
+  
+  .dYellow::-webkit-scrollbar-thumb {
+    background-color: #95815E;
+  }
+
+.yellowImg{
+    width: 300px;
+    background-color: #252525;
+    border-radius: 8px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.yellowImg > img{
+    width: 300px;
+    height: 300px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.textYellow{
+    padding-top: 5px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.yellowImg2{
+    background-color: #4d4d4d;
+}
+
+.yellowImg3{
+    background-color: #404040;
+}
+
+.yellowImg4{
+    background-color: #333333;
+}
+
+.textServices{
+    font-weight: bold;
+}
+
+.servicesWidth{
+    width: 360px;
+}
+
+.servicesImg > img{
+    width: 100%;
+}
+
+.servicesPt{
+    padding-top: 80px;
+}
+
+.servicesFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fw{
+    font-weight: 300;
+}
+
+.CarFons{
+    background-image: url("https://focus.ua/static/storage/thumbs/920x465/e/d2/ee24729d-30125853274b22b7ccde22c682457d2e.jpg?v=5717_1");
+    background-blend-mode: darken;
+    background-color: #000000a1;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 540px;
+}
+
+.servicesPb{
+    padding-bottom: 80px;
+}
+
+.servicesPost{
+    width: 74%;
+    margin: 0 auto;
+    padding-top: 180px;
+}
+
+.carText{
+    font-weight: 300;
+}
+
+.logo2{
+    width: 40px;
+    height: 40px;
+}
+
+.text-white {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navigationImg{
+    background-image: url("http://eragroup.kg/img/roadmap.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /*width: 100%;*/
+    height: 600px;
+}
+
+.navigationMap{
+    display: none;
+}
+
+.tel{
+    height: 50px;
+}
+
+.hr{
+    color: white;
+    width: 113%;
+    margin-left: -16px;
+}
+
+.textContact{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.imgContact > img{
+    width: 70px;
+    height: 70px;
+}
+
+.zIndex{
+    z-index: 1;
+}
+
+.zIndex2{
+    position: absolute;
+    width: 260px;
+    height: 408px;
+    background-color: white;
+    margin-top: -460px;
+    margin-left: 70px;
+}
+
+.textSimple{
+    font-size: 14px;
+}
