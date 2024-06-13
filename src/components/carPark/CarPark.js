@@ -22,7 +22,7 @@ function CarPark(){
                     <h5 className="fw-bold text-white fsg d-flex pb-3">
                     Ждем всех гостей в нашем заведении! 🌯😋
                     </h5>
-                    <button className="btn form-control btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal"> Консультация</button>
+                    <button className="btn form-control btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal"> Обратный звонок</button>
                 </div>
             </div>
         </div>

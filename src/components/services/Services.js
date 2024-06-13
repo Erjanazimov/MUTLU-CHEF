@@ -39,7 +39,7 @@ function Services(){
                             </div>
                             <div>
                                 <button className="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Консультации
+                                Обратный звонок
                                     <span className="px-2">
                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                         className="bi bi-chat-text-fill" viewBox="0 0 16 16"><path
@@ -66,7 +66,7 @@ function Services(){
                                 </div>
                                 <div>
                                     <button className="btn btn-outline-primary " data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                        Консультации
+                                    Обратный звонок
                                         <span className="px-2">
                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                         className="bi bi-chat-text-fill" viewBox="0 0 16 16"><path
@@ -98,7 +98,7 @@ function Services(){
                                 </div>
                                 <div>
                                     <button className="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                        Консультации
+                                        Обратный звонок
                                         <span className="px-2">
                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                         className="bi bi-chat-text-fill" viewBox="0 0 16 16"><path
