@@ -1,5 +1,5 @@
 import React from "react";
-import SimpleMap from "./SimpleMap";
+import DGWidget from './SimpleMap';
 
 function Contact(){
     return(
@@ -17,7 +17,7 @@ function Contact(){
                     </div>
                 </div>
             </div>
-            <SimpleMap/>
+            {/* <DGWidget/> */}
         </div>
     )
 }

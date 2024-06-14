@@ -34,10 +34,6 @@
         display: none;
     }
 
-    .imgAbout{
-        width: 310px;
-    }
-
     .textAboutWidth{
         margin-left: 14px;
     }
@@ -155,9 +151,6 @@
         padding-right: 10px;
     }
 
-    .imgAbout{
-        width: 360px;
-    }
 
     .textAbout{
         width: 100%;
@@ -309,12 +302,6 @@
     .width{
         padding-top: 20px;
     }
-
-    .imgAbout{
-        width: 405px;
-        height: 460px;
-        border-radius: 15%;
-    }
     .wAbout{
         padding-left: 14px;
     }
@@ -455,11 +442,6 @@
         display: none;
     }
 
-    .imgAbout{
-        width: 320px;
-        border-radius: 1%;
-    }
-
     .textHeader{
         font-size: 26px;
     }
@@ -514,10 +496,6 @@
 }
 
 @media (max-width: 320px) {
-    .imgAbout{
-        width: 100%;
-        border-radius: 1%;
-    }
 
     .containerMediaYellow{
         width: 100%;
