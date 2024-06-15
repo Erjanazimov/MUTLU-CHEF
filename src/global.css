@@ -286,6 +286,20 @@ li > a:hover{
     grid-row-gap: 10px;
 }
 
+.dYellow2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dYellow2 > div {
+    width: 400px;
+    margin: 10px;
+}
+
+
+
 .dYellow::-webkit-scrollbar {
     /* background-color: #B2B2B2; */
     width: 12px;
@@ -316,6 +330,14 @@ li > a:hover{
     border-top-right-radius: 8px;
     border: 1px solid #fff;
 }
+
+
+
+/* .yellowImg2  {
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+} */
 
 .textYellow{
     padding-top: 5px;

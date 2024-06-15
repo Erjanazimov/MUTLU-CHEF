@@ -39,9 +39,9 @@ function Insurance(){
                     </div>
 
                     <div className="containerMediaYellow yellowBlock">
-                        <div className="dYellow">
+                        <div className="dYellow2">
                             {
-                                arrayCard?.filter((_, index) => index < 4)?.map((item) => {
+                                arrayCard?.filter((_, index) => index < 2)?.map((item) => {
 
                                     return <div className="yellowImg" key={item.id}>
                                     <img src={item.url}/>
