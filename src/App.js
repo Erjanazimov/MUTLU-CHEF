@@ -37,7 +37,7 @@ function App() {
            <Modal/>
            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
   <div class="offcanvas-header">
-    <h5 id="offcanvasRightLabel">Меню</h5>
+    <h5 id="offcanvasRightLabel">Наше меню</h5>
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
@@ -60,6 +60,9 @@ function App() {
                                 })
                             }
                         </div>
+                        <button style={{marginTop: 20}} className="btn form-control btn-outline-secondary" onClick={() => window.open("https://glovoapp.com/kg/en/bishkek/mutlu-chef-bsk/")}>
+                                Заказать GLOVO
+                                </button>
   </div>
 </div>
        </div>

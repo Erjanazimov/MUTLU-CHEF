@@ -255,13 +255,17 @@ li > a:hover{
     z-index: 3;
     margin-top: -260px;
 }
-
+.grid_4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
 .dYellow{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
 }
 
 .dYellow::-webkit-scrollbar {
@@ -278,16 +282,16 @@ li > a:hover{
   }
 
 .yellowImg{
-    width: 300px;
+    /* width: 300px; */
     background-color: #252525;
     border-radius: 8px;
-    margin-right: 5px;
+    /* margin-right: 5px;
     margin-left: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 5px; */
 }
 
 .yellowImg > img{
-    width: 300px;
+    width: 100%;
     height: 300px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;

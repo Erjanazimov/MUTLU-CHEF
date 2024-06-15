@@ -41,7 +41,7 @@ function Insurance(){
                     <div className="containerMediaYellow yellowBlock">
                         <div className="dYellow">
                             {
-                                arrayCard?.filter((_, index) => index < 3)?.map((item) => {
+                                arrayCard?.filter((_, index) => index < 4)?.map((item) => {
 
                                     return <div className="yellowImg" key={item.id}>
                                     <img src={item.url}/>
@@ -62,7 +62,7 @@ function Insurance(){
                       
                     </div>
                     <div className="containerMediaYellow" style={{display: "flex", justifyContent: "center"}}>
-                       <div style={{width: "100%", paddingLeft: 10, paddingRight: 10}}>
+                       <div style={{width: "100%", paddingLeft: 10, paddingRight: 10, paddingTop: 20}}>
                        <button class="btn btn-outline-secondary" type="button" style={{width: "100%"}} data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                             Открыть полное меню
                         </button>
