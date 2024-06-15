@@ -10,6 +10,7 @@ import CarPark from "./components/carPark/CarPark";
 import Modal from "./components/modal/Modal";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import { arrayCard } from './utils/data';
 
 function App() {
   return (
@@ -34,6 +35,33 @@ function App() {
             </a>
            </div>
            <Modal/>
+           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">Меню</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+  <div className="dYellow">
+                            {
+                                arrayCard?.map((item) => {
+
+                                    return <div className="yellowImg" key={item.id}>
+                                    <img src={item.url}/>
+                                <div className="p-3">
+                                    <h4 className="text-white">{item?.title}</h4>
+                                    <p className="textYellow">
+                                        {item?.description}
+                                    </p>
+                                    <p>
+                                       <span style={{fontWeight: 600, color: "#fff"}}>Цена: </span> <span style={{color: "#f19a0e", fontWeight: 600, fontSize: 17 }}>{item.price}</span>
+                                    </p>
+                                </div>
+                                </div>
+                                })
+                            }
+                        </div>
+  </div>
+</div>
        </div>
    </>
   )

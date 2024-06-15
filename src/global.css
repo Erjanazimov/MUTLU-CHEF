@@ -1,3 +1,7 @@
+* {
+    font-family: 'Roboto', sans-serif!important;
+  }
+  
 .logo{
     width: 60px;
     height: 60px;
@@ -44,6 +48,7 @@ li > a:hover{
 .containerMediaYellow{
     width: 1230px;
     margin: 0 auto;
+
 }
 
 .containerM{
@@ -253,11 +258,10 @@ li > a:hover{
 
 .dYellow{
     width: 100%;
-    height: 600px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     padding-bottom: 10px;
-    overflow-x: scroll;
 }
 
 .dYellow::-webkit-scrollbar {
@@ -279,6 +283,7 @@ li > a:hover{
     border-radius: 8px;
     margin-right: 5px;
     margin-left: 5px;
+    margin-bottom: 5px;
 }
 
 .yellowImg > img{
@@ -431,4 +436,8 @@ li > a:hover{
 
 .block_whatsApp > a {
     margin-top: -5px;
+}
+
+.offcanvas-end {
+    width: 100%;
 }

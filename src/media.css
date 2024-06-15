@@ -58,9 +58,9 @@
         width: 94%;
     }
 
-    .yellowImg > img{
+    /* .yellowImg > img{
         height: 280px;
-    }
+    } */
 
     .servicesFlex{
         padding-left: 10px;
@@ -190,14 +190,13 @@
         width: 90%;
     }
 
-    .yellowImg{
-        width: 50%;
+    /* .yellowImg{
         height: 600px;
-    }
+    } */
 
-    .yellowImg > img{
+    /* .yellowImg > img{
         height: 370px;
-    }
+    } */
 
     .pt{
         padding: 40px 0px 0px 0px;
@@ -349,10 +348,10 @@
     .containerMediaYellow{
         width: 100%;
     }
-    .yellowImg{
+    /* .yellowImg{
         width: 90%;
         height: 620px;
-    }
+    } */
 
     .CarFons{
         height: 380px;
@@ -402,13 +401,13 @@
         width: 100%;
     }
 
-    .yellowImg {
+    /* .yellowImg {
         height: 500px;
-    }
+    } */
 
-    .yellowImg > img{
+    /* .yellowImg > img{
         height: 320px;
-    }
+    } */
 
     .CarFons{
         background-image: url("https://focus.ua/static/storage/thumbs/920x465/e/d2/ee24729d-30125853274b22b7ccde22c682457d2e.jpg?v=5717_1");
@@ -463,9 +462,9 @@
         width: 100%;
     }
 
-    .yellowImg > img{
+    /* .yellowImg > img{
         height: 260px;
-    }
+    } */
 
     .servicesImg > img{
         width: 100%;

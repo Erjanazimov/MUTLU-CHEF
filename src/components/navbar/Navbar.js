@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/images/icons8-wok-80.png"
+import logo from "../../assets/images/logo.jpg"
 
 function Navbar(){
     return(
@@ -12,9 +12,6 @@ function Navbar(){
                         <img className="logo" src={logo}/>
                     </a>
 
-                        <div className="fs-5 tex Text" style={{marginLeft:2}}>
-                        MUTLU CHEF
-                        </div>
                         <div className="font">
                         Турецкий <br/>
                         и арабский вкус | Бишкек
