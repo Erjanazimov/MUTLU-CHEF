@@ -1,3 +1,10 @@
+body {
+    background-color: black;
+}
+h5 {
+    color: #ffff;
+}
+
 * {
     font-family: 'Roboto', sans-serif!important;
   }
@@ -85,7 +92,7 @@ li > a:hover{
 }
 
 .imgScroll2{
-    background-image: url("https://hayat.rest/image/catalog/blog/hinkali.jpg");
+    background-image: url("https://i.wfolio.com/x/KfN2JhbB89-m6UeUSQ-43b-4LTDPyZVn/q6sVLUvjujnOk6mXbO2srbIKpPlcOqy0/t7rVx8PT5NFW95R5iPfYgBdCvXqdZSYC/zyAGIGx14QnH8prwkbZ-T_VQC0dpw9Hp/imD7pN62XUepN3NSIwunZtHvq02v6LB8/yE5Gq-OAOOI1IX2tTmQsOLmgNkTbQVHl/hATQDrKIpTjQz5Le9VKwpiiYp9LlVfKN/S39tj667aW8d2iZLjo7c7b8v02WT2V4m/b3gUlBeXO6ScLEOwzOuXvy1m-6Ftkzgo/gNuoHFQ6HnLYfHFD_I67kBDo-9BE6GkD/-lWE9slp396Kn0fnPqsIwvTizyTrpgSF/KJG3xcK6ygjIU5-mpoJGU8xE2essKAS0/_Jk91fAahdWUAg2TBJAy0NbQq35bZuRi/LbeCMnjsQZ5RFYKWqXK6IWyat7wD173E/s47BEe7UtBo0yGRWIkG9qegs_E4-wReT/1xSc7pG2jpjXBMTMp_4cEWJHCfEfwpfk/3Z_c9dHzu0Dd7TKGcO07jIUJ5o7k0LFM/M60BK5g5GkA.jpg");
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-color: #00000061;
@@ -161,6 +168,7 @@ li > a:hover{
     font-weight: bold;
     font-size: 36px;
     width: 40px;
+    color: #fff;
 }
 
 .aboutText2{
@@ -178,6 +186,7 @@ li > a:hover{
     font-weight: 300;
     width: 400px;
     margin-right: 20px;
+    color: #fff;
 }
 
 .textAboutWidth{
@@ -198,7 +207,7 @@ li > a:hover{
 }
 
 .fons{
-    background-color: #f2f2f8;
+    background-color: black;
     width: 100%;
 }
 
@@ -214,11 +223,20 @@ li > a:hover{
 
 .InsuranceImg{
     width: 100%;
-    background-color: #fff;
+    background-color: #4b4b4b;
     margin-top: 70px;
     margin-left: -90px;
     z-index: 1;
     height: 345px;
+    border-radius: 12px;
+}
+
+.wInsurance > h4 {
+    color: #fff;
+}
+
+.wInsurance > p {
+    color: #fff;
 }
 
 .pt{
@@ -242,7 +260,7 @@ li > a:hover{
 .fonsYellow{
     width: 100%;
     height: 160px;
-    background-color: #f19a0e;
+    /* background-color: #f19a0e; */
     z-index: 1;
 }
 
@@ -283,7 +301,8 @@ li > a:hover{
 
 .yellowImg{
     /* width: 300px; */
-    background-color: #252525;
+    position: relative;
+    background-color: #fff;
     border-radius: 8px;
     /* margin-right: 5px;
     margin-left: 5px;
@@ -295,13 +314,15 @@ li > a:hover{
     height: 300px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+    border: 1px solid #fff;
 }
 
 .textYellow{
     padding-top: 5px;
-    color: #fff;
+    color: black;
     font-weight: 300;
     font-size: 14px;
+    padding-bottom: 20px;
 }
 
 .yellowImg2{
@@ -324,6 +345,9 @@ li > a:hover{
     width: 360px;
 }
 
+.servicesWidth > div > p {
+    color: #fff;
+}
 .servicesImg > img{
     width: 100%;
 }
@@ -363,6 +387,10 @@ li > a:hover{
 
 .carText{
     font-weight: 300;
+}
+
+.carText {
+    color: #fff!important;
 }
 
 .logo2{
@@ -444,4 +472,24 @@ li > a:hover{
 
 .offcanvas-end {
     width: 100%;
+}
+
+.offcanvas  {
+    background-color: black;
+}
+
+.price {
+    position: absolute;
+    bottom: 0;
+}
+
+.btn-outline-secondary {
+    border: 1px solid #ffce00;
+    color: #ffce00;
+}
+
+.btn-outline-secondary:hover {
+    color: #25d366;
+    background-color: #ffce00;
+    border: none;
 }

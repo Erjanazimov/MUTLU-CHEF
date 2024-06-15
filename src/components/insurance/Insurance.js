@@ -46,12 +46,12 @@ function Insurance(){
                                     return <div className="yellowImg" key={item.id}>
                                     <img src={item.url}/>
                                 <div className="p-3">
-                                    <h4 className="text-white">{item?.title}</h4>
+                                    <h4 className="text-black fw-bold">{item?.title}</h4>
                                     <p className="textYellow">
                                         {item?.description}
                                     </p>
-                                    <p>
-                                       <span style={{fontWeight: 600, color: "#fff"}}>Цена: </span> <span style={{color: "#f19a0e", fontWeight: 600, fontSize: 17 }}>{item.price}</span>
+                                    <p className="price">
+                                       <span style={{fontWeight: 600, color: "black"}}>Цена: </span> <span style={{color: "#f19a0e", fontWeight: 600, fontSize: 17 }}>{item.price}</span>
                                     </p>
                                 </div>
                                 </div>

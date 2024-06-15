@@ -33,7 +33,7 @@ function Navbar(){
                             <p className="px-5 textNav2">10:00-22:00</p>
                         </div>
                         <div className="Text dBlock2">
-                            <button className="btn btn-outline-success" onClick={() => window.open("https://glovoapp.com/kg/en/bishkek/mutlu-chef-bsk/")}>Заказать GLOVO</button>
+                            <button className="btn btn-outline-secondary" onClick={() => window.open("https://glovoapp.com/kg/en/bishkek/mutlu-chef-bsk/")}>Заказать GLOVO</button>
                         </div>
                         </div>
                         <button className="navbar-toggler navbar-light" type="button" data-bs-toggle="offcanvas"
@@ -79,7 +79,7 @@ function Navbar(){
                                             <a href="#contact">Контакты</a>
                                         </li>
                                         <li className="pt-4">
-                                            <button className="btn btn-outline-success" onClick={() => window.open("https://glovoapp.com/kg/en/bishkek/mutlu-chef-bsk/")}>Заказать GLOVO</button>
+                                            <button className="btn btn-outline-secondary" onClick={() => window.open("https://glovoapp.com/kg/en/bishkek/mutlu-chef-bsk/")}>Заказать GLOVO</button>
                                         </li>
                                     </ul>
                                 </div>

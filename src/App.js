@@ -37,8 +37,11 @@ function App() {
            <Modal/>
            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
   <div class="offcanvas-header">
-    <h5 id="offcanvasRightLabel">Наше меню</h5>
-    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+    <svg color="#fff" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+  <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+</svg>
+    </button>
   </div>
   <div class="offcanvas-body">
   <div className="dYellow">
@@ -48,12 +51,12 @@ function App() {
                                     return <div className="yellowImg" key={item.id}>
                                     <img src={item.url}/>
                                 <div className="p-3">
-                                    <h4 className="text-white">{item?.title}</h4>
+                                    <h4 className="text-black fw-bold">{item?.title}</h4>
                                     <p className="textYellow">
                                         {item?.description}
                                     </p>
-                                    <p>
-                                       <span style={{fontWeight: 600, color: "#fff"}}>Цена: </span> <span style={{color: "#f19a0e", fontWeight: 600, fontSize: 17 }}>{item.price}</span>
+                                    <p className="price">
+                                       <span style={{fontWeight: 600, color: "black"}}>Цена: </span> <span style={{color: "#f19a0e", fontWeight: 600, fontSize: 17 }}>{item.price}</span>
                                     </p>
                                 </div>
                                 </div>
